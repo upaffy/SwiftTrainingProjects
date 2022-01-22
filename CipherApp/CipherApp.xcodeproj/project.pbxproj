@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E935EE8926EFBFA5008C178A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935EE8826EFBFA5008C178A /* AppDelegate.swift */; };
+		E935EE8B26EFBFA5008C178A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935EE8A26EFBFA5008C178A /* SceneDelegate.swift */; };
+		E935EE9026EFBFA5008C178A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E935EE8E26EFBFA5008C178A /* Main.storyboard */; };
+		E935EE9226EFBFA8008C178A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E935EE9126EFBFA8008C178A /* Assets.xcassets */; };
+		E935EE9526EFBFA8008C178A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E935EE9326EFBFA8008C178A /* LaunchScreen.storyboard */; };
+		E944A90126F843420063B356 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E944A90026F843420063B356 /* MessageViewController.swift */; };
+		E944A90326F844260063B356 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E944A90226F844260063B356 /* ResultViewController.swift */; };
+		E95E8C6626F664EC003E9605 /* AlgorithmsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E8C6526F664EC003E9605 /* AlgorithmsListViewController.swift */; };
+		E95E8C6C26F67A28003E9605 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E8C6B26F67A28003E9605 /* Algorithm.swift */; };
+		E9A1A60026F7C4DA005F2A40 /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1A5FF26F7C4DA005F2A40 /* RSA.swift */; };
+		E9A1A60226F7C6B1005F2A40 /* Vigenere.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1A60126F7C6B1005F2A40 /* Vigenere.swift */; };
+		E9A1A60426F7C732005F2A40 /* Atbash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1A60326F7C732005F2A40 /* Atbash.swift */; };
+		E9A1A60826F7C9FA005F2A40 /* KeyPairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1A60726F7C9FA005F2A40 /* KeyPairViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E935EE8526EFBFA5008C178A /* CipherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CipherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E935EE8826EFBFA5008C178A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E935EE8A26EFBFA5008C178A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E935EE8F26EFBFA5008C178A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E935EE9126EFBFA8008C178A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E935EE9426EFBFA8008C178A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E935EE9626EFBFA8008C178A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E944A90026F843420063B356 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		E944A90226F844260063B356 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E95E8C6526F664EC003E9605 /* AlgorithmsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsListViewController.swift; sourceTree = "<group>"; };
+		E95E8C6B26F67A28003E9605 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		E9A1A5FF26F7C4DA005F2A40 /* RSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA.swift; sourceTree = "<group>"; };
+		E9A1A60126F7C6B1005F2A40 /* Vigenere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vigenere.swift; sourceTree = "<group>"; };
+		E9A1A60326F7C732005F2A40 /* Atbash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atbash.swift; sourceTree = "<group>"; };
+		E9A1A60726F7C9FA005F2A40 /* KeyPairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPairViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E935EE8226EFBFA5008C178A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E935EE7C26EFBFA5008C178A = {
+			isa = PBXGroup;
+			children = (
+				E935EE8726EFBFA5008C178A /* CipherApp */,
+				E935EE8626EFBFA5008C178A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E935EE8626EFBFA5008C178A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E935EE8526EFBFA5008C178A /* CipherApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E935EE8726EFBFA5008C178A /* CipherApp */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1A5FE26F745C3005F2A40 /* EncryptionAlgorithms */,
+				E95E8C6A26F67A11003E9605 /* Models */,
+				E935EE9D26EFD1C2008C178A /* ViewControllers */,
+				E935EE9E26EFD1CF008C178A /* Storyboards */,
+				E935EE9F26EFD1DE008C178A /* Resources */,
+				E935EE9C26EFD14B008C178A /* App */,
+			);
+			path = CipherApp;
+			sourceTree = "<group>";
+		};
+		E935EE9C26EFD14B008C178A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E935EE9626EFBFA8008C178A /* Info.plist */,
+				E935EE8826EFBFA5008C178A /* AppDelegate.swift */,
+				E935EE8A26EFBFA5008C178A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E935EE9D26EFD1C2008C178A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E95E8C6526F664EC003E9605 /* AlgorithmsListViewController.swift */,
+				E9A1A60726F7C9FA005F2A40 /* KeyPairViewController.swift */,
+				E944A90026F843420063B356 /* MessageViewController.swift */,
+				E944A90226F844260063B356 /* ResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E935EE9E26EFD1CF008C178A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E935EE9326EFBFA8008C178A /* LaunchScreen.storyboard */,
+				E935EE8E26EFBFA5008C178A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E935EE9F26EFD1DE008C178A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E935EE9126EFBFA8008C178A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E95E8C6A26F67A11003E9605 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E95E8C6B26F67A28003E9605 /* Algorithm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9A1A5FE26F745C3005F2A40 /* EncryptionAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1A5FF26F7C4DA005F2A40 /* RSA.swift */,
+				E9A1A60126F7C6B1005F2A40 /* Vigenere.swift */,
+				E9A1A60326F7C732005F2A40 /* Atbash.swift */,
+			);
+			path = EncryptionAlgorithms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E935EE8426EFBFA5008C178A /* CipherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E935EE9926EFBFA8008C178A /* Build configuration list for PBXNativeTarget "CipherApp" */;
+			buildPhases = (
+				E935EE8126EFBFA5008C178A /* Sources */,
+				E935EE8226EFBFA5008C178A /* Frameworks */,
+				E935EE8326EFBFA5008C178A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CipherApp;
+			productName = CipherApp;
+			productReference = E935EE8526EFBFA5008C178A /* CipherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E935EE7D26EFBFA5008C178A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E935EE8426EFBFA5008C178A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E935EE8026EFBFA5008C178A /* Build configuration list for PBXProject "CipherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E935EE7C26EFBFA5008C178A;
+			productRefGroup = E935EE8626EFBFA5008C178A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E935EE8426EFBFA5008C178A /* CipherApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E935EE8326EFBFA5008C178A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E935EE9526EFBFA8008C178A /* LaunchScreen.storyboard in Resources */,
+				E935EE9226EFBFA8008C178A /* Assets.xcassets in Resources */,
+				E935EE9026EFBFA5008C178A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E935EE8126EFBFA5008C178A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A1A60226F7C6B1005F2A40 /* Vigenere.swift in Sources */,
+				E944A90126F843420063B356 /* MessageViewController.swift in Sources */,
+				E9A1A60426F7C732005F2A40 /* Atbash.swift in Sources */,
+				E9A1A60826F7C9FA005F2A40 /* KeyPairViewController.swift in Sources */,
+				E935EE8926EFBFA5008C178A /* AppDelegate.swift in Sources */,
+				E944A90326F844260063B356 /* ResultViewController.swift in Sources */,
+				E9A1A60026F7C4DA005F2A40 /* RSA.swift in Sources */,
+				E95E8C6626F664EC003E9605 /* AlgorithmsListViewController.swift in Sources */,
+				E935EE8B26EFBFA5008C178A /* SceneDelegate.swift in Sources */,
+				E95E8C6C26F67A28003E9605 /* Algorithm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E935EE8E26EFBFA5008C178A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E935EE8F26EFBFA5008C178A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E935EE9326EFBFA8008C178A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E935EE9426EFBFA8008C178A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E935EE9726EFBFA8008C178A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E935EE9826EFBFA8008C178A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E935EE9A26EFBFA8008C178A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CipherApp/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pnp.CipherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E935EE9B26EFBFA8008C178A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CipherApp/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pnp.CipherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E935EE8026EFBFA5008C178A /* Build configuration list for PBXProject "CipherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E935EE9726EFBFA8008C178A /* Debug */,
+				E935EE9826EFBFA8008C178A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E935EE9926EFBFA8008C178A /* Build configuration list for PBXNativeTarget "CipherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E935EE9A26EFBFA8008C178A /* Debug */,
+				E935EE9B26EFBFA8008C178A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E935EE7D26EFBFA5008C178A /* Project object */;
+}
